@@ -1,0 +1,50 @@
+body{
+    background-color: #151515;
+    color:red
+}
+.centered-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #151515;
+}
+
+nav {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+nav button { 
+    color: red;
+    font-size: 15px;
+    padding: 15px 10px;
+    border-radius: 23px;
+    border-color: #cccccc;
+    border-width: 5px;
+    border-style: solid;
+    background-color: #151515;
+}
+
+nav button:hover {
+    background-color: #505050;
+    border-color: red;
+}
+
+form {
+    text-align: center;
+    margin-top: 50px;
+    color: red;
+}
+
+p > button{
+    font-size: 17px;
+    color: red;
+    font-weight: bold;
+    background-color: #111111;
+}
+
+h1 {
+    color: red;
+}
